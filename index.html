@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iChat - Realtime Node Socket.io Chat App</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>  <!--defer specifies that the script is downloaded in parallel to parsing the page, and executed after the page  has finished  parsing (the defer attr. is only used for external scripts containing src attr. is present). -->
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="/javascript/chatApp/img/whatsapp_logo_green_generated.jpg" alt="logo">
+        <h1 style="text-align: center;">Whatsapp clone</h1>
+    </nav>
+
+    <div class="container"></div>
+
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+
+
+</body>
+</html>
